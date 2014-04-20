@@ -19,7 +19,8 @@ Slack.prototype.send = function(message,cb) {
 		
 		"channel":message.channel,
 		"text": message.text,
-		"username":message.username
+		"username":message.username,
+		"icon_url":message.icon_url || "https://cdn4.iconfinder.com/data/icons/jolly-icons-social-media-and-communication/120/2014-social-github-octocat-512.png"
 			
 	};
 	
