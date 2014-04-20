@@ -1,3 +1,7 @@
+//some other icons
+// https://cdn4.iconfinder.com/data/icons/jolly-icons-social-media-and-communication/120/1304-smiley-sad-512.png
+// https://cdn4.iconfinder.com/data/icons/jolly-icons-social-media-and-communication/120/1305-smiley-happy-512.png
+
 var request=require('request');
 
 function Slack(domain,token) {
